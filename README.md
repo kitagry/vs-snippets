@@ -27,6 +27,7 @@ This plugin complies with following plugins lisense(MIT)
 - [microsoft/vscode-python](https://github.com/microsoft/vscode-python)
 - [editor-rs/vscode-rust](https://github.com/editor-rs/vscode-rust)
 - [rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby)
+- [one-harsh/vscode-cpp-snippets](https://github.com/one-harsh/vscode-cpp-snippets)
 
 Author:
 -------
