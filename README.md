@@ -11,8 +11,6 @@ Install:
 ```vim
 dein#add('hrsh7th/vim-vsnip')
 dein#add('kitagry/vs-snippets')
-
-let g:vsnip_snippet_dirs = split(globpath(&runtimepath, 'snippets'), '\n')
 ```
 
 License:
