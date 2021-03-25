@@ -19,6 +19,11 @@
     "body": "const (\n\t${1:name} = ${2:value}\n)",
     "description": "Snippet for a constant block"
   },
+  "type function declaration": {
+    "prefix": "tyf",
+    "body": "type ${1:name} func($3) $4",
+    "description": "Snippet for a type function declaration"
+  },
   "type interface declaration": {
     "prefix": "tyi",
     "body": "type ${1:name} interface {\n\t$0\n}",
@@ -61,12 +66,12 @@
   },
   "for statement": {
     "prefix": "for",
-    "body": "for ${1:index} := 0; $1 < ${2:count}; $1${3:++} {\n\t$0\n}",
+    "body": "for ${1:i} := ${2:0}; $1 < ${3:count}; $1${4:++} {\n\t$0\n}",
     "description": "Snippet for a for loop"
   },
   "for range statement": {
     "prefix": "forr",
-    "body": "for ${1:_, }${2:var} := range ${3:var} {\n\t$0\n}",
+    "body": "for ${1:_, }${2:v} := range ${3:v} {\n\t$0\n}",
     "description": "Snippet for a for range loop"
   },
   "channel declaration": {
@@ -213,6 +218,11 @@
     "prefix": "tf",
     "body": "func Test$1(t *testing.T) {\n\t$0\n}",
     "description": "Snippet for Test function"
+  },
+  "test main": {
+    "prefix": "tm",
+    "body": "func TestMain(m *testing.M) {\n\t$1\n\n\tos.Exit(m.Run())\n}",
+    "description": "Snippet for TestMain function"
   },
   "benchmark function": {
     "prefix": "bf",
