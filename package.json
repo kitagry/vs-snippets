@@ -44,6 +44,22 @@
       {
         "language": ["typescript", "typescriptreact"],
         "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "dune",
+        "path": "./snippets/dune.json"
+      },
+      {
+        "language": "dune-project",
+        "path": "./snippets/dune-project.json"
+      },
+      {
+        "language": "ocaml",
+        "path": "./snippets/ocaml.json"
+      },
+      {
+        "language": "ocaml.ocamllex",
+        "path": "./snippets/ocamllex.json"
       }
     ]
   }
